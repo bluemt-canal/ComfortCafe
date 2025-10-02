@@ -103,3 +103,26 @@ footer {
     margin-top: 20%;
     color: #1b0704;
 }
+#news {
+  min-height: 270px;
+  margin-bottom: 40px;
+  background-image: url(./img/cafenews.png);
+  background-size: cover;
+}
+#news .main-title{
+  text-align: center;
+}
+.news-contents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:50px;
+}
+article {
+  width:75%;
+  margin-left: 5%;
+  margin-right:10%;
+}
+aside {
+  width:23%;
+  margin-right:5%;
+}
