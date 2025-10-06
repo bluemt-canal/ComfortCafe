@@ -222,3 +222,104 @@ padding-bottom: 10px;
 .drink-table td {
   padding: 10px;
 }
+.menu-sweets {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.menu-sweets img {
+  width: 40%;
+  margin-right: 10%;
+}
+
+.sweets {
+  width: 25%;
+  margin-left: 20%;
+}
+
+.sweets-title {
+  font-size:1.5rem;
+  text-align:center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+  border-bottom: 2px #e6e6e6 solid;
+  padding-bottom: 10px;
+}
+
+.sweets-table {
+  width: 100%;
+}
+
+.sweets-table td {
+  padding:10px;
+}
+@media screen and (max-width:575px) {
+  .main-title {
+    font-size: 2rem;
+    padding: 0 10px;
+  }
+  .main-title {
+    margin-top: 40px;
+    }
+  .news-contents {
+    display: block;
+  }
+  .article {
+    width: 90%;
+    margin-bottom: 30%;
+  }
+  .post-title {
+    font-size: 1.5rem;
+    padding-top: 0;
+  }
+  .post-date {
+    height: 70px;
+    padding-top: 10px;
+  }
+  aside {
+    width: 90%;
+    margin-left: 3%;
+  }
+  .main-visual p {
+    padding: 10px 10px 20px 10px;
+  }
+  .main-nav {
+    margin-top: 7px;
+  }
+  .main-nav li {  
+    margin-left: 0;
+  }
+  .margin li a {
+    margin-left: 0;
+  }
+  main-visual {
+    margin-top: 50%;
+  }
+  #top {
+    background-position: center;
+  }
+  .menu-drink {
+    display: block;
+  }
+  .menu-drink img {
+    width:80%;
+    margin-bottom: 20px;
+  }
+  .drink {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .menu-sweets {
+    flex-direction: column-reverse;
+  }
+  .menu-sweets img {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+  .sweets {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
